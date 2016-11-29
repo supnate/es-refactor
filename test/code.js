@@ -1,7 +1,8 @@
+export Hello from './Hello';
 import React, { Component, PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Hello from './Hello';
+
 import * as actions from './redux/actions';
 
 Hello = 'abc';
